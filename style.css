@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+
+.battle-text{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(107, 107, 248, 0.947);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.menu img{
+    width: 50px;
+}
+
+.you-are{
+    width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+.you-are h1{
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 80px;
+    color: white;
+}
+
+.you-are img{
+    position: absolute;
+    right:428px;
+    top: 150px;
+}
+
+.third-div{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-peer button{
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.img-container{
+    display: flex;
+}
+
+.img-container div{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.img1{
+    background-image: url('./unnamed.jpg');
+    background-size: cover;
+    border: 2px solid rgba(107, 107, 248, 0.947);
+}
+
+
+.img2{
+    background-image: url('./NINTCHDBPICT000574792782.jpg');
+    background-size: cover;
+    position: relative;
+    right: 10px;
+    border: 2px solid rgba(107, 107, 248, 0.947);
+}
+
+.img3{
+    background-image: url('./Elon_Musk_2015.jpg');
+    background-size: cover;
+    position: relative;
+    right: 20px;
+    border: 2px solid rgba(107, 107, 248, 0.947);
+}
+
+.img4{
+    background-image: url('./Bill_Gates_200316_090318.jpg');
+    background-size: cover;
+    position: relative;
+    right: 30px;
+    border: 2px solid rgba(107, 107, 248, 0.947);
+}
+
+.img5{
+    background-image: url('./Mukesh-Ambani.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    right: 40px;
+    border: 2px solid rgba(107, 107, 248, 0.947);
+}
+
+.join-para p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.meeting-img{
+    width: 100%;
+    height: 257px;
+    background-color: rgba(107, 107, 248, 0.947);
+}
+
+.img-container2{
+    height: 257px;
+    width: 90%;
+    background-image: url('./meeting\ ed2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 200px 200px 0px;
+    position: relative;
+}
+
+.norm-shape{
+    width: 266px;
+    height: 257px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 250px;
+    position: absolute;
+    left: 1100px;
+}
+
+.res-shape{
+    display: none;
+    width: 263px;
+    height: 257px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 250px;
+}
+
+
+
+            /* RESPONSIVE */
+        
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .battle-text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 80%;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo h2{
+        font-size: 18px;
+    }
+
+    .you-are{
+        width: 80%;
+        height: 150px;
+    }
+
+    .you-are h1{
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .you-are img{
+        position: absolute;
+        right: 162px;
+        top: 95px;
+        width: 200px;
+    }
+
+    .join-peer{
+        width: 100px;
+    }
+
+    .join-peer button{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .img-container div{
+        width: 40px;
+        height: 40px;
+    }
+
+    .join-para p{
+        font-size: 12px;
+    }
+
+    .meeting-img{
+        width: 100%;
+    }
+
+    .img-container2{
+        width: 90%;
+    }
+
+    .norm-shape{
+       display: none;
+    }
+
+    .res-shape{
+        display: block;
+        position: absolute;
+        left: 505px;  
+    }
+}
